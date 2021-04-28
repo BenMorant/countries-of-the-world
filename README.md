@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
-and based upon [From Scratch - Développement Web's tutorial](https://www.youtube.com/watch?v=K3D2rjAUQ3o&t=199s)
+and based upon [From Scratch - Développement Web's tutorial](https://www.youtube.com/watch?v=K3D2rjAUQ3o)
 
 ## Available Scripts
 

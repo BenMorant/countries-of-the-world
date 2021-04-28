@@ -1,9 +1,17 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello World !</h1>
-    </div>
-  )
-}
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+
+import About from './pages/About'
+import Home from './pages/Home'
+import NotFound from './pages/NotFound'
+
+const App = () => (
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/a-propos" exact component={About} />
+      <Route component={NotFound} />
+    </Switch>
+  </BrowserRouter>
+)
 
 export default App
